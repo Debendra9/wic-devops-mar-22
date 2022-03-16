@@ -1,8 +1,8 @@
 # Duration : 50 hours
 | Topic              | Duration (hours) | Status |
 | -------------------| ---------------- | ------ |
-| Devops Intro       | 1.5              |        |
-| Infra Prerequsites | 1.5              |        |
+| Devops Intro       | 1.5              | Done   |
+| Prerequsites       | 1.5              | Done   |
 | Git                | 5                |        |
 | Terraform          | 8                |        |
 | Ansible            | 8                |        |

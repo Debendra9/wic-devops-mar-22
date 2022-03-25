@@ -3,8 +3,8 @@
 | -------------------| ---------------- | ------ |
 | Devops Intro       | 1.5              | Done   |
 | Prerequsites       | 1.5              | Done   |
-| Git                | 5                |        |
-| Terraform          | 7                |        |
+| Git                | 5                | Done   |
+| Terraform          | 12               |        |
 | Ansible            | 7                |        |
 | Docker             | 6                |        |
 | Kubernetes         | 8                |        |
@@ -12,7 +12,7 @@
 | Jenkins            | 8                |        |
 | Monitoring         | 2                |        |
 | DevSecops          | 2                |        |
-| Total              | 50 hours         |        |
+| Total              | 55 hours         |        |
 
 # Out of Scope
 * Cloud (AWS) Introduction

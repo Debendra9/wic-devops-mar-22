@@ -4,7 +4,7 @@
 | Devops Intro       | 1.5              | Done   |
 | Prerequsites       | 1.5              | Done   |
 | Git                | 5                | Done   |
-| Terraform          | 12               |        |
+| Terraform          | 12               | Done   |
 | Ansible            | 7                |        |
 | Docker             | 6                |        |
 | Kubernetes         | 8                |        |

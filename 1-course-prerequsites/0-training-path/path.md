@@ -5,7 +5,7 @@
 | Prerequsites       | 1.5              | Done   |
 | Git                | 5                | Done   |
 | Terraform          | 12               | Done   |
-| Ansible            | 7                |        |
+| Ansible            | 7                |Progress|
 | Docker             | 6                |        |
 | Kubernetes         | 8                |        |
 | Maven              | 2                |        |

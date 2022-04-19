@@ -13,8 +13,11 @@
 - You can name your group name as well
 
   [lab]
+  
   192.0.2.50
+  
   answeb01
+  
   ansdb01
 
 - Your inventory file is ready now

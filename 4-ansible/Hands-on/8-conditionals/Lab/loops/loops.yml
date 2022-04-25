@@ -1,0 +1,12 @@
+# Playbook using with_items condition
+---
+  - hosts: all
+    gather_facts: no
+    ignore_errors: yes
+    tasks:
+      - name: Install packages
+        yum: name={{ item }} state=present
+        loop:
+           - httpd
+           - python3 
+           - wget

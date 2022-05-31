@@ -1,0 +1,28 @@
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-for-cluster-service
+spec:
+  selector:
+    matchLabels:
+      app: apache
+      env: dev
+      tag: cluster-service
+  replicas: 2
+
+# pod creation
+  template:
+    metadata:
+      name: apache-pods
+      labels:
+        app: apache
+        env: dev
+        tag: cluster-service
+    spec:
+      containers:
+      - name: apache
+        image: httpd
+        ports:
+        - containerPort: 80
+        

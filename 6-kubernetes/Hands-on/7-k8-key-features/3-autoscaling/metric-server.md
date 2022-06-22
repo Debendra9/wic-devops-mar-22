@@ -1,0 +1,16 @@
+# Metric server configuration
+
+- `wget https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml`
+- `vi components.yaml`
+- `add below lines in components.yaml file`
+  ```
+  command:
+    - /metrics-server
+    - --kubelet-insecure-tls
+    - --kubelet-preferred-address-types=InternalIP
+   ```
+- `kubectl apply -f components.yaml`
+- `kubectl get pods -n kube-system`
+
+# How to check if metric server is working
+- `kubectl top nodes`

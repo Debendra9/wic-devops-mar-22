@@ -2,7 +2,7 @@
 
 - `wget https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml`
 - `vi components.yaml`
-- `add below lines in components.yaml file`
+- `add below lines in components.yaml file (line number 143 to 145)`
   ```
   command:
     - /metrics-server
@@ -14,3 +14,4 @@
 
 # How to check if metric server is working
 - `kubectl top nodes`
+- `kubectl top pods -A`
